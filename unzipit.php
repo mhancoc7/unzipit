@@ -223,7 +223,6 @@ for ($i = 0; $i < ($size = 100); $i++) {
 echo '<script type="text/javascript">';
 echo 'alert("Unzip has completed!")';
 echo '</script>';  
-echo "<script>location.href='unzip.php'</script>";
 }
 if (isset($deletezip)) {
 echo "Deleting Zip...<br />\n";
